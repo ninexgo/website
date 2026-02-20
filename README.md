@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <img src="./public/ninexgo-icon.svg" width="30" /> Ninexgo — Crafting the future.
 
-## Getting Started
+ [Ninexgo](https://ninexgo.com) — an independent studio building developer tools, platforms, and internet products.
 
-First, run the development server:
+## Stack
+
+- [Next.js 16](https://nextjs.org) (App Router)
+- [React 19](https://react.dev)
+- [Tailwind CSS v4](https://tailwindcss.com)
+- [Framer Motion](https://www.framer.com/motion)
+- [Geist](https://vercel.com/font) (Sans + Mono)
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── components/        # All page sections and UI components
+├── globals.css        # Tailwind v4 theme + brand tokens
+├── layout.tsx         # Metadata, fonts, root layout
+├── page.tsx           # Page composition
+├── sitemap.ts         # Auto-generated sitemap
+└── robots.ts          # Crawler rules
+public/
+├── ninexgo-icon.svg   # Brand icon (used in nav + favicon)
+└── og.png             # Social share image (1200×630)
+```
 
-## Learn More
+## Products
 
-To learn more about Next.js, take a look at the following resources:
+- **[Anchor UI](https://anchorui.com/react/overview/quick-start)** — Headless component library for React
+- **[Edupen](https://edupen.in)** — Collaborative writing and learning platform
+- **[Sentinel](https://sentinel.ninexgo.com/)** *(in progress)* — AI code review connected to GitHub and your IDE
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Site: [ninexgo.com](https://ninexgo.com)
+- X: [@ninexgo](https://x.com/ninexgo)
+- GitHub: [@ninexgo](https://github.com/ninexgo)
