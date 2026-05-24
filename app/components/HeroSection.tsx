@@ -93,9 +93,10 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="w-full font-bold tracking-tight text-center leading-none"
+          aria-label="Crafting the future."
         >
           {/* Line 1: cycling verb — larger, brand-500, the action */}
-          <span className="relative flex w-full justify-center overflow-hidden text-brand-500 text-[72px] md:text-[100px] lg:text-[132px]">
+          <span aria-hidden="true" className="relative flex w-full justify-center overflow-hidden text-brand-500 text-[72px] md:text-[100px] lg:text-[132px]">
             &nbsp;
             {words.map((word, index) => (
               <motion.span
@@ -156,6 +157,7 @@ export default function HeroSection() {
         {/* Scroll indicator */}
         <motion.a
           href="#products"
+          aria-label="Scroll to products section"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.0 }}

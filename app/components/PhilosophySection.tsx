@@ -38,7 +38,7 @@ export default function PhilosophySection() {
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-sm uppercase tracking-widest text-zinc-400 text-center mb-10"
+          className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10"
         >
           How we build
         </motion.p>
@@ -52,7 +52,7 @@ export default function PhilosophySection() {
               viewport={{ once: true, margin: "-20px" }}
               transition={{ duration: 0.4, delay: index * 0.1, ease: "easeOut" }}
             >
-              <span className="text-xs font-mono text-zinc-300 dark:text-zinc-700">
+              <span className="text-xs font-mono text-zinc-400 dark:text-zinc-600" aria-hidden="true">
                 {principle.number}
               </span>
               <h3 className="mt-2 text-[15px] font-semibold text-brand-dark dark:text-zinc-100">
