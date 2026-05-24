@@ -26,7 +26,7 @@ export default function NowBuildingSection() {
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-sm uppercase tracking-widest text-zinc-400 text-center mb-10"
+          className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10"
         >
           Now building
         </motion.p>
@@ -60,7 +60,7 @@ export default function NowBuildingSection() {
             ))}
           </div>
 
-          <p className="mt-8 text-xs text-zinc-400 dark:text-zinc-600 font-mono">
+          <p className="mt-8 text-xs text-zinc-500 dark:text-zinc-500 font-mono">
             Last updated: February 2026
           </p>
         </motion.div>

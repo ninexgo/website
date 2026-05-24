@@ -11,7 +11,7 @@ export default function StudioSection() {
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-sm uppercase tracking-widest text-zinc-400 text-center mb-10"
+          className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10"
         >
           Behind the studio
         </motion.p>
@@ -39,13 +39,13 @@ export default function StudioSection() {
               href="https://x.com/_iPushpendra"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm text-zinc-400 dark:text-zinc-500 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
+              className="inline-flex items-center gap-1.5 text-sm text-zinc-500 dark:text-zinc-400 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
             >
               Say hi on X →
             </a>
             <a
               href="/about"
-              className="inline-flex items-center gap-1.5 text-sm text-zinc-400 dark:text-zinc-500 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
+              className="inline-flex items-center gap-1.5 text-sm text-zinc-500 dark:text-zinc-400 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
             >
               More about Ninexgo →
             </a>

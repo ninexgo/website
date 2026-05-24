@@ -35,7 +35,7 @@ export default function TermsPage() {
 
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-10">
-            <ol className="flex items-center gap-2 text-xs text-zinc-400">
+            <ol className="flex items-center gap-2 text-xs text-zinc-500">
               <li>
                 <Link href="/" className="hover:text-brand-500 transition-colors duration-200">
                   Ninexgo
@@ -49,7 +49,7 @@ export default function TermsPage() {
           <h1 className="text-3xl font-bold text-brand-dark dark:text-zinc-100 tracking-tight">
             Terms of Service
           </h1>
-          <p className="mt-3 text-sm text-zinc-400">Last updated: May 24, 2026</p>
+          <p className="mt-3 text-sm text-zinc-500">Last updated: May 24, 2026</p>
 
           <div className="mt-10 space-y-10 text-[15px] leading-7 text-zinc-600 dark:text-zinc-400">
 
@@ -220,7 +220,7 @@ export default function TermsPage() {
           </div>
 
           {/* Footer links */}
-          <div className="mt-16 pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-wrap gap-4 text-xs text-zinc-400">
+          <div className="mt-16 pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-wrap gap-4 text-xs text-zinc-500">
             <Link href="/" className="hover:text-brand-500 transition-colors duration-200">Home</Link>
             <Link href="/about" className="hover:text-brand-500 transition-colors duration-200">About</Link>
             <Link href="/privacy" className="hover:text-brand-500 transition-colors duration-200">Privacy Policy</Link>

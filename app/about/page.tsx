@@ -91,7 +91,7 @@ export default function AboutPage() {
 
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-10">
-            <ol className="flex items-center gap-2 text-xs text-zinc-400">
+            <ol className="flex items-center gap-2 text-xs text-zinc-500">
               <li>
                 <Link href="/" className="hover:text-brand-500 transition-colors duration-200">
                   Ninexgo
@@ -111,7 +111,7 @@ export default function AboutPage() {
           <section className="mt-10" aria-labelledby="what-is-ninexgo">
             <h2
               id="what-is-ninexgo"
-              className="text-xs font-medium uppercase tracking-widest text-zinc-400 mb-4"
+              className="text-xs font-medium uppercase tracking-widest text-zinc-500 mb-4"
             >
               What is Ninexgo
             </h2>
@@ -140,7 +140,7 @@ export default function AboutPage() {
           <section aria-labelledby="mission">
             <h2
               id="mission"
-              className="text-xs font-medium uppercase tracking-widest text-zinc-400 mb-4"
+              className="text-xs font-medium uppercase tracking-widest text-zinc-500 mb-4"
             >
               Mission
             </h2>
@@ -165,7 +165,7 @@ export default function AboutPage() {
           <section aria-labelledby="products">
             <h2
               id="products"
-              className="text-xs font-medium uppercase tracking-widest text-zinc-400 mb-6"
+              className="text-xs font-medium uppercase tracking-widest text-zinc-500 mb-6"
             >
               Products
             </h2>
@@ -185,7 +185,7 @@ export default function AboutPage() {
                     A headless component library for React — unstyled by default, accessible out
                     of the box. Bring your own styles, own your design system.
                   </p>
-                  <p className="mt-1 text-xs text-zinc-400 group-hover:text-brand-500 transition-colors duration-200">
+                  <p className="mt-1 text-xs text-zinc-500 group-hover:text-brand-500 transition-colors duration-200">
                     anchorui.com ↗
                   </p>
                 </a>
@@ -205,7 +205,7 @@ export default function AboutPage() {
                     A focused space for writing, sharing, and learning together. Less clutter than
                     a wiki. More collaborative than a note app.
                   </p>
-                  <p className="mt-1 text-xs text-zinc-400 group-hover:text-brand-500 transition-colors duration-200">
+                  <p className="mt-1 text-xs text-zinc-500 group-hover:text-brand-500 transition-colors duration-200">
                     edupen.in ↗
                   </p>
                 </a>
@@ -225,7 +225,7 @@ export default function AboutPage() {
                     AI code review that understands your codebase. Surfaces real issues — not
                     surface-level noise. Connects to GitHub and your IDE.
                   </p>
-                  <p className="mt-1 text-xs text-zinc-400 group-hover:text-brand-500 transition-colors duration-200">
+                  <p className="mt-1 text-xs text-zinc-500 group-hover:text-brand-500 transition-colors duration-200">
                     sentinel.ninexgo.com ↗
                   </p>
                 </a>
@@ -239,7 +239,7 @@ export default function AboutPage() {
           <section aria-labelledby="founder">
             <h2
               id="founder"
-              className="text-xs font-medium uppercase tracking-widest text-zinc-400 mb-4"
+              className="text-xs font-medium uppercase tracking-widest text-zinc-500 mb-4"
             >
               Founder
             </h2>
@@ -260,7 +260,7 @@ export default function AboutPage() {
                 href="https://x.com/_iPushpendra"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm text-zinc-400 hover:text-brand-500 transition-colors duration-200"
+                className="inline-flex items-center gap-1.5 text-sm text-zinc-500 hover:text-brand-500 transition-colors duration-200"
               >
                 Follow on X →
               </a>
@@ -273,7 +273,7 @@ export default function AboutPage() {
           <section aria-labelledby="contact">
             <h2
               id="contact"
-              className="text-xs font-medium uppercase tracking-widest text-zinc-400 mb-4"
+              className="text-xs font-medium uppercase tracking-widest text-zinc-500 mb-4"
             >
               Get in touch
             </h2>
@@ -291,7 +291,7 @@ export default function AboutPage() {
           </section>
 
           {/* Footer links */}
-          <div className="mt-16 pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-wrap gap-4 text-xs text-zinc-400">
+          <div className="mt-16 pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-wrap gap-4 text-xs text-zinc-500">
             <Link href="/" className="hover:text-brand-500 transition-colors duration-200">Home</Link>
             <Link href="/privacy" className="hover:text-brand-500 transition-colors duration-200">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-brand-500 transition-colors duration-200">Terms</Link>

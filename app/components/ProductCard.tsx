@@ -66,7 +66,7 @@ export default function ProductCard({ title, description, index, href, status, i
           </div>
         )}
         {url && (
-          <p className="mt-2 text-xs text-zinc-400 dark:text-zinc-600 group-hover:text-brand-500 transition-colors duration-200">
+          <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-500 group-hover:text-brand-500 transition-colors duration-200">
             {url} ↗
           </p>
         )}
