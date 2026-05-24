@@ -89,7 +89,7 @@ export default function HeroSection() {
 
         {/* Animated headline */}
         <motion.h1
-          initial={{ opacity: 0, y: 16 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="w-full font-bold tracking-tight text-center leading-none"
@@ -101,7 +101,7 @@ export default function HeroSection() {
               <motion.span
                 key={word}
                 className="absolute font-bold"
-                initial={{ opacity: 0, y: 140 }}
+                initial={index === 0 ? { opacity: 1, y: 0 } : { opacity: 0, y: 140 }}
                 transition={{ type: "spring", stiffness: 50 }}
                 animate={
                   wordIndex === index

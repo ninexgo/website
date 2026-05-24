@@ -25,7 +25,7 @@ export default function Nav() {
     >
       <div className="max-w-2xl mx-auto h-14 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
+        <a href="/" className="flex items-center gap-2 group">
           <BrandIcon />
           <span className="text-sm font-semibold text-brand-dark dark:text-zinc-100 group-hover:text-brand-500 transition-colors duration-200">
             Ninexgo
@@ -33,7 +33,7 @@ export default function Nav() {
         </a>
 
         {/* Nav links */}
-        <nav className="flex items-center gap-5">
+        <nav aria-label="Main navigation" className="flex items-center gap-5">
           <a
             href="#products"
             className="hidden sm:block text-xs text-zinc-500 dark:text-zinc-400 hover:text-brand-dark dark:hover:text-zinc-100 transition-colors duration-200"

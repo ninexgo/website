@@ -27,21 +27,29 @@ export default function StudioSection() {
             Pushpendra Singh
           </p>
           <p className="mt-5 text-[15px] leading-7 text-zinc-600 dark:text-zinc-400">
-            I build Ninexgo after hours — developer tools, platforms, and internet
-            products I wish existed. Designing and building since 2011 — from graphic
-            design to leading frontend at scale — all of it channelled into smaller,
-            sharper things built with clean architecture, thoughtful design systems,
-            and zero shortcuts.
+            I build Ninexgo — developer tools, platforms, and internet products I
+            wish existed. Designing and building since 2011 — from graphic design to
+            leading frontend at scale — all of it channelled into smaller, sharper
+            things built with clean architecture, thoughtful design systems, and zero
+            shortcuts.
           </p>
 
-          <a
-            href="https://x.com/_iPushpendra"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-1.5 text-sm text-zinc-400 dark:text-zinc-500 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
-          >
-            Say hi on X →
-          </a>
+          <div className="mt-6 flex flex-wrap items-center gap-5">
+            <a
+              href="https://x.com/_iPushpendra"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm text-zinc-400 dark:text-zinc-500 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
+            >
+              Say hi on X →
+            </a>
+            <a
+              href="/about"
+              className="inline-flex items-center gap-1.5 text-sm text-zinc-400 dark:text-zinc-500 hover:text-brand-500 dark:hover:text-brand-500 transition-colors duration-200"
+            >
+              More about Ninexgo →
+            </a>
+          </div>
         </motion.div>
 
       </div>

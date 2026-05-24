@@ -9,7 +9,7 @@ import FooterSection from "./components/FooterSection";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white dark:from-black dark:to-zinc-950">
+    <div className="min-h-screen bg-linear-to-b from-zinc-50 to-white dark:from-black dark:to-zinc-950">
       <Nav />
       <HeroSection />
       <ProductsSection />
