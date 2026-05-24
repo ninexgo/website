@@ -1,28 +1,13 @@
-"use client";
-
-import { motion } from "framer-motion";
-
 export default function StudioSection() {
   return (
     <section id="studio" className="py-24 px-6 border-t border-zinc-100 dark:border-zinc-900">
       <div className="max-w-2xl mx-auto">
 
-        <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10"
-        >
+        <p className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10">
           Behind the studio
-        </motion.p>
+        </p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="max-w-lg mx-auto"
-        >
+        <div className="max-w-lg mx-auto">
           <p className="text-[15px] font-semibold text-brand-dark dark:text-zinc-100">
             Pushpendra Singh
           </p>
@@ -50,7 +35,7 @@ export default function StudioSection() {
               More about Ninexgo →
             </a>
           </div>
-        </motion.div>
+        </div>
 
       </div>
     </section>

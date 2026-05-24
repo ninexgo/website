@@ -1,5 +1,3 @@
-"use client";
-
 import { WavePath } from "./WavePath";
 
 export default function FooterSection() {

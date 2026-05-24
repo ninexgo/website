@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 interface ProductCardProps {
   title: string;
@@ -30,7 +30,7 @@ export default function ProductCard({ title, description, index, href, status, i
   const isExternal = href?.startsWith("http");
 
   const content = (
-    <motion.div
+    <m.div
       initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-30px" }}
@@ -71,7 +71,7 @@ export default function ProductCard({ title, description, index, href, status, i
           </p>
         )}
       </div>
-    </motion.div>
+    </m.div>
   );
 
   if (href) {

@@ -1,37 +1,17 @@
-"use client";
-
-import { motion } from "framer-motion";
-
 export default function ContactSection() {
   return (
     <section id="contact" className="py-24 px-6 border-t border-zinc-100 dark:border-zinc-900">
       <div className="max-w-lg mx-auto text-center">
 
-        <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-sm uppercase tracking-widest text-zinc-500 mb-4"
-        >
+        <p className="text-sm uppercase tracking-widest text-zinc-500 mb-4">
           Work together
-        </motion.p>
+        </p>
 
-        <motion.h2
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.08 }}
-          className="text-2xl font-bold text-brand-dark dark:text-zinc-100"
-        >
+        <h2 className="text-2xl font-bold text-brand-dark dark:text-zinc-100">
           Building something interesting?
-        </motion.h2>
+        </h2>
 
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.16 }}
-        >
+        <div>
           <p className="mt-4 text-[15px] text-zinc-500 dark:text-zinc-400 leading-7">
             The studio occasionally takes on focused engagements — developer tools,
             design systems, and platform work.
@@ -50,7 +30,7 @@ export default function ContactSection() {
           <p className="mt-4 text-xs text-zinc-500 dark:text-zinc-500">
             Focused on developer tools, platforms, and design systems.
           </p>
-        </motion.div>
+        </div>
 
       </div>
     </section>

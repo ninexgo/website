@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import BrandIcon from "./BrandIcon";
 
 export default function Nav() {
@@ -14,7 +14,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <motion.header
+    <m.header
       animate={{
         backgroundColor: scrolled ? "var(--nav-bg)" : "transparent",
         borderBottomColor: scrolled ? "var(--nav-border)" : "transparent",
@@ -56,6 +56,6 @@ export default function Nav() {
           </a>
         </nav>
       </div>
-    </motion.header>
+    </m.header>
   );
 }
