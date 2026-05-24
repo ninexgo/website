@@ -14,7 +14,7 @@ export default function FooterSection() {
             <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-0.5">Crafting the future.</p>
           </div>
 
-          <nav className="flex items-center gap-5">
+          <nav aria-label="Footer navigation" className="flex items-center gap-5">
             <a
               href="#products"
               className="text-xs text-zinc-400 dark:text-zinc-500 hover:text-brand-dark dark:hover:text-zinc-300 transition-colors duration-200"
@@ -36,6 +36,22 @@ export default function FooterSection() {
               className="text-xs text-zinc-400 dark:text-zinc-500 hover:text-brand-dark dark:hover:text-zinc-300 transition-colors duration-200"
             >
               X
+            </a>
+            <a
+              href="https://www.linkedin.com/company/ninexgo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-zinc-400 dark:text-zinc-500 hover:text-brand-dark dark:hover:text-zinc-300 transition-colors duration-200"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://bsky.app/profile/ninexgo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-zinc-400 dark:text-zinc-500 hover:text-brand-dark dark:hover:text-zinc-300 transition-colors duration-200"
+            >
+              Bluesky
             </a>
             <a
               href="mailto:hello@ninexgo.com"
