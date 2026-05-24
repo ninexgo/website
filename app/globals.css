@@ -52,6 +52,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes hero-blob {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.03; }
+  50% { transform: translate(-50%, -50%) scale(1.12); opacity: 0.05; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

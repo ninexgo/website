@@ -1,7 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
-
 const principles = [
   {
     number: "01",
@@ -34,24 +30,13 @@ export default function PhilosophySection() {
     <section id="approach" className="py-24 px-6 border-t border-zinc-100 dark:border-zinc-900">
       <div className="max-w-2xl mx-auto">
 
-        <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10"
-        >
+        <p className="text-sm uppercase tracking-widest text-zinc-500 text-center mb-10">
           How we build
-        </motion.p>
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
-          {principles.map((principle, index) => (
-            <motion.div
-              key={principle.number}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-20px" }}
-              transition={{ duration: 0.4, delay: index * 0.1, ease: "easeOut" }}
-            >
+          {principles.map((principle) => (
+            <div key={principle.number}>
               <span className="text-xs font-mono text-zinc-400 dark:text-zinc-600" aria-hidden="true">
                 {principle.number}
               </span>
@@ -61,7 +46,7 @@ export default function PhilosophySection() {
               <p className="mt-1.5 text-sm text-zinc-500 dark:text-zinc-500 leading-relaxed">
                 {principle.description}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
